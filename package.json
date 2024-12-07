@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/styled-components": "^5.1.34",
     "preact": "^10.25.0"
   },
   "devDependencies": {
