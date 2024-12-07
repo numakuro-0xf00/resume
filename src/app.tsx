@@ -28,7 +28,10 @@ return (
             </p>
           </div>
         </section>
-        <section>Work</section>
+        <section>
+          <h3>Work</h3>
+          
+        </section>
         <section>Skils</section>
         <section>Qualifications</section>
        </main>
