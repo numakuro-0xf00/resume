@@ -1,5 +1,6 @@
 import { useState } from 'preact/hooks'
 import './app.css'
+import { TimeLineHistory } from './components/timeLineHistory'
 
 export function App() {
 
@@ -30,6 +31,7 @@ return (
         </section>
         <section>
           <h3>Work</h3>
+          <TimeLineHistory/>
           
         </section>
         <section>Skils</section>
