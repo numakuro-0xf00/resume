@@ -32,7 +32,6 @@ return (
         <section>
           <h3>Work</h3>
           <TimeLineHistory/>
-          
         </section>
         <section>Skils</section>
         <section>Qualifications</section>
