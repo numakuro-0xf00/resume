@@ -34,7 +34,12 @@ return (
           <TimeLineHistory/>
         </section>
         <section>Skils</section>
-        <section>Qualifications</section>
+        <section>
+          <h3>Qualifications</h3>
+          <p>応用情報技術者試験合格</p>
+          <p>TOEIC L&R 720点</p>
+          
+        </section>
        </main>
     </>
   )
