@@ -30,7 +30,7 @@ return (
           </div>
         </section>
         <section>
-          <h3>Work</h3>
+          <h3 className="text-2xl">Work</h3>
           <TimeLineHistory/>
         </section>
         <section>
