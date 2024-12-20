@@ -30,11 +30,11 @@ return (
           </div>
         </section>
         <section>
-          <h3 className="text-2xl">Work</h3>
+          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-8">Work</h3>
           <TimeLineHistory/>
         </section>
         <section>
-          <h3>Skill</h3>
+          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-8">Skill</h3>
           <div className="flex flex-row ">
             <a className="w-10 h-10 flex mr-2">
               <svg viewBox="0 0 128 128">
@@ -74,11 +74,11 @@ return (
           </div>
         </section>
         <section>
-          <h3>Education</h3>
+          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-8">Education</h3>
           <p>外語ビジネス専門学校　グローバルICT学科　卒業</p>
         </section>
         <section>
-          <h3>Qualifications</h3>
+          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-8">Qualifications</h3>
           <p>応用情報技術者試験合格</p>
           <p>TOEIC L&R 720点</p>
           
