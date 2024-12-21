@@ -6,11 +6,11 @@ export function App() {
 
 return (
     <>
-      <header className="sticky top-0 border-b border-gray-300">
+      <header className="sticky top-0 border-b border-gray-300 bg-white">
         <div class="flex items-center justify-between px-3 sm:px-6 lg:px-5">
           <div class="flex items-center">
             <a href="/">
-              <p>Numakuro</p>
+              <p className={" text-gray-900"}>Numakuro</p>
             </a>
           </div>
         </div>
