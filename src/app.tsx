@@ -1,4 +1,3 @@
-import { useState } from 'preact/hooks'
 import './app.css'
 import { TimeLineHistory } from './components/timeLineHistory'
 

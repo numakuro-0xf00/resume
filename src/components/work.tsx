@@ -86,7 +86,4 @@ const SCircle = styled.div`
     }
 `;
 
-const SLine = styled.div`
-    
-`;
 
