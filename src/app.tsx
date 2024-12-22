@@ -6,35 +6,35 @@ export function App() {
 
 return (
     <>
-      <header className="sticky top-0 border-b border-gray-300 bg-white">
+      {/* <header className="sticky top-0 border-b border-gray-300 bg-white dark:bg-slate-800">
         <div class="flex items-center justify-between px-3 sm:px-6 lg:px-5">
           <div class="flex items-center">
             <a href="/">
-              <p className={" text-gray-900"}>Numakuro</p>
+              <p className={" text-gray-900 text-xl tracking-tight"}>Numakuro</p>
             </a>
           </div>
         </div>
-      </header>
+      </header> */}
        
-       <main className="max-w-4xl mx-auto my-qo sm:px-6 xl:max-w-6xl sl:px-0"> 
+       <main className="max-w-4xl mx-auto my-qo sm:px-6 xl:max-w-6xl sl:px-0 mt-20"> 
         <section>
           <div id='profileCard' className="rounded overflow-hidden shadow-lg flex flex-col items-center justify-center p-4 bg-white border border-gray-200">
               <img class="flex flex-col w-40 h-40" src="./nu.png" alt="Sunset in the mountains"/>
-              <h1 className="font-sans text-3xl font-bold tracking-wider">Numacro</h1>
-            <p>Sostware Engineer</p>
+              <h1 className="font-sans text-3xl font-bold tracking-wider">Numakuro</h1>
+            <p>Software Engineer</p>
             <p className="sm:px-2 px-6 ">
-               製造業から転職し、現在はソフトウェアエンジニアとして活動しています。<br/>
+               現在はソフトウェアエンジニアとして活動しています。<br/>
                C#, html css javascriptを使ったWebアプリケーション開発が得意です。<br/>
                また、最近はReact、TypeScriptを使った開発も行っています。<br/>
             </p>
           </div>
         </section>
         <section>
-          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-8">Work</h3>
+          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-3 dark:text-white">Work</h3>
           <TimeLineHistory/>
         </section>
         <section>
-          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-8">Skill</h3>
+          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-3 dark:text-white">Skill</h3>
           <div className="flex flex-row ">
             <a className="w-10 h-10 flex mr-2">
               <svg viewBox="0 0 128 128">
@@ -74,11 +74,11 @@ return (
           </div>
         </section>
         <section>
-          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-8">Education</h3>
+          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-3 dark:text-white">Education</h3>
           <p>外語ビジネス専門学校　グローバルICT学科　卒業</p>
         </section>
         <section>
-          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-8">Qualifications</h3>
+          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-3 dark:text-white">Qualifications</h3>
           <p>応用情報技術者試験合格</p>
           <p>TOEIC L&R 720点</p>
           
