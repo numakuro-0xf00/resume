@@ -1,5 +1,6 @@
 import './app.css'
 import { TimeLineHistory } from './components/timeLineHistory'
+import { ProfileCard } from './components/profileCard'
 
 export function App() {
 
@@ -17,19 +18,7 @@ return (
        
        <main className="max-w-4xl mx-auto my-qo sm:px-6 xl:max-w-6xl sl:px-0 mt-20"> 
         <section>
-          <div id='profileCard' className="rounded overflow-hidden shadow-lg flex flex-col items-center justify-center p-4 bg-white dark:bg-transparent border border-gray-200 dark:border-gray-500">
-          <picture className="flex flex-col w-40 h-40 ">
-              <source media="(prefers-color-scheme: dark)" srcset="nu_dark.png" />
-              <img src="nu.png" alt="top icon" />
-          </picture>
-              <h1 className="font-sans text-3xl font-bold tracking-wider">Numakuro</h1>
-            <p>Software Engineer</p>
-            <p className="sm:px-2 px-6 text-gray-900 dark:text-white">
-               現在はソフトウェアエンジニアとして活動しています。<br/>
-               C#, html css javascriptを使ったWebアプリケーション開発が得意です。<br/>
-               また、最近はReact、TypeScriptを使った開発も行っています。<br/>
-            </p>
-          </div>
+          <ProfileCard />
         </section>
         <section>
           <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-3 dark:text-white">Work</h3>
