@@ -1,6 +1,7 @@
 import './app.css'
 import { TimeLineHistory } from './components/timeLineHistory'
 import { ProfileCard } from './components/profileCard'
+import { Qualification } from './components/qualification'
 
 export function App() {
 
@@ -16,7 +17,7 @@ return (
         </div>
       </header> */}
        
-       <main className="max-w-4xl mx-auto my-qo sm:px-6 xl:max-w-6xl sl:px-0 mt-20"> 
+       <main className="max-w-4xl mx-auto  sm:px-6 xl:max-w-6xl sl:px-0 my-20"> 
         <section>
           <ProfileCard />
         </section>
@@ -69,9 +70,7 @@ return (
           <p>外語ビジネス専門学校　グローバルICT学科　卒業</p>
         </section>
         <section>
-          <h3 className="text-2xl tracking-tight font-extrabold text-gray-900 mt-10 mb-3 dark:text-white">Qualifications</h3>
-          <p>応用情報技術者試験合格</p>
-          <p>TOEIC L&R 720点</p>
+          <Qualification />
           
         </section>
        </main>
