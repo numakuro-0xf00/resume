@@ -47,7 +47,7 @@ export const Work = ({ title, description, periodStart, periodEnd }: WorkProps) 
                             </svg>
                         </span>
                         <div className="flex flex-col md:col-start-3 md:col-span-4">
-                            <h4 className="block">{title}</h4>
+                            <h4 className="block text-lg font-semibold mb-2">{title}</h4>
                             <p>{description}</p>
                             
                         </div>
